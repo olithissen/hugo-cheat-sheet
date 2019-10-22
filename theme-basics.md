@@ -32,3 +32,5 @@ hugo new theme mynewtheme
 ## Partials
 
 ## Blocks
+
+Blocks are 
