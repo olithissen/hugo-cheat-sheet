@@ -17,13 +17,13 @@ hugo new theme mynewtheme
 ```html
 <!DOCTYPE html>
 <html>
-    "{{- partial "head.html" . -"}}
+    {{- partial "head.html" . -}}
     <body>
-        "{{- partial "header.html" . -"}}
+        {{- partial "header.html" . -}}
         <div id="content">
-        "{{- block "main" . }}{{- end "}}
+        {{- block "main" . }}{{- end }}
         </div>
-        "{{- partial "footer.html" . -"}}
+        {{- partial "footer.html" . -}}
     </body>
 </html>
 ```
