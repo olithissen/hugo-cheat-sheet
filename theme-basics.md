@@ -14,7 +14,8 @@ hugo new theme mynewtheme
 
 ### `layouts/_default/baseof.html`
 
-```java
+{% raw %}
+```html
 <!DOCTYPE html>
 <html>
     {{- partial "head.html" . -}}
@@ -27,6 +28,7 @@ hugo new theme mynewtheme
     </body>
 </html>
 ```
+{% endraw %}
 
 ## Partials
 
