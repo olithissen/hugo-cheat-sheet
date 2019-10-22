@@ -13,7 +13,7 @@ hugo new theme mynewtheme
 * `layouts/index.html` Special template for your front page. Could by skipped if you want it to look like a list or single
 
 ### The _baseof.html_ template
-
+{% raw  %}
 ```html
 <!DOCTYPE html>
 <html>
@@ -27,6 +27,7 @@ hugo new theme mynewtheme
     </body>
 </html>
 ```
+{% endraw  %}
 
 ## Partials
 
