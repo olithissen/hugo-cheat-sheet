@@ -12,7 +12,7 @@ hugo new theme mynewtheme
 * `layouts/_default/single.html` Template for everything that is a content page
 * `layouts/index.html` Special template for your front page. Could by skipped if you want it to look like a list or single
 
-### `layouts/_default/baseof.html`
+### The _baseof.html_ template
 
 ```html
 <!DOCTYPE html>
