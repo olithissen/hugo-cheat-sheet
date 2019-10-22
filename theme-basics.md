@@ -14,7 +14,7 @@ hugo new theme mynewtheme
 
 ### `layouts/_default/baseof.html`
 
-```html
+```
 <!DOCTYPE html>
 <html>
     {{- partial "head.html" . -}}
