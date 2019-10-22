@@ -3,6 +3,9 @@ description: A hopefully growing collection of Hugo Cheat sheets
 
 theme: jekyll-theme-slate
 
+navbar-links:
+  Start: "index"
+
 social-network-links:
   github: olithissen
   twitter: olithissen
